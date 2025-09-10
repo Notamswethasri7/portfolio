@@ -1,4 +1,4 @@
-/* Global Styles */
+
 * {
   margin: 0;
   padding: 0;
@@ -7,7 +7,7 @@
   font-family: "Poppins", sans-serif;
 }
 
-/* Attractive Background */
+
 body {
   color: #fff;
   line-height: 1.6;
@@ -54,7 +54,7 @@ header { background: linear-gradient(135deg, #ff4e50, #f9d423);
   transform: scale(1.1);
 }
 
-/* Navigation Links */
+
 .nav-links {
   list-style: none;
   display: flex;
@@ -71,21 +71,21 @@ header { background: linear-gradient(135deg, #ff4e50, #f9d423);
   transition: all 0.3s ease-in-out;
 }
 
-/* Hover Effect */
+
 .nav-links li a:hover {
   background-color:orangered;
   color: #0a192f;
   box-shadow: 0 0 15px orangered;
 }
 
-/* Active Link Highlight */
+
 .nav-links li a.active {
   background-color: orangered;
   color: #0a192f;
   box-shadow: 0 0 15px orangered;
 }
 
-/* Responsive Navbar */
+
 @media screen and (max-width: 768px) {
   .nav-links {
     flex-direction: column;
